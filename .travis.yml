@@ -23,7 +23,8 @@ install:
   - cabal new-build --enable-tests --enable-benchmarks
 
 script:
-  - cabal new-test --enable-tests
+  #- cabal new-test --enable-tests
+  - cabal run actividad01.cabal 
 
 notifications:
   email: false
