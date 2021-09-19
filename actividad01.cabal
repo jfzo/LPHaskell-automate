@@ -29,6 +29,11 @@ executable actividad01
     -- other-extensions:
     build-depends:    
         base >=4.10.0.0,
+<<<<<<< HEAD
         HUnit >=1.2.0.0
     hs-source-dirs:   test
+=======
+        HUnit >=1.0.0.0
+    hs-source-dirs:   app
+>>>>>>> b5e9a3b6be3802ccf873e486a8722ea7548b63a6
     default-language: Haskell2010
